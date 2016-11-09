@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Papa John Soundboard.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>B4DEF08B1DD2CA3B00B04C5C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B4DEF09F1DD2CA3C00B04C5C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B4DEF0AA1DD2CA3C00B04C5C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

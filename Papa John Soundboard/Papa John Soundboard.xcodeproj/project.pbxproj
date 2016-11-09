@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B419DBCE1DD2CB6000B7F4BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B419DBCD1DD2CB6000B7F4BB /* Main.storyboard */; };
+		B419DBD01DD2CB8F00B7F4BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B419DBCF1DD2CB8F00B7F4BB /* LaunchScreen.storyboard */; };
+		B419DBD21DD2CC2300B7F4BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B419DBD11DD2CC2300B7F4BB /* Assets.xcassets */; };
+		B429463C1DD2E87900DB57D3 /* Stop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B429463B1DD2E87900DB57D3 /* Stop.mp3 */; };
+		B4D07E991DD2FB8400C64520 /* Bo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4D07E981DD2FB8400C64520 /* Bo.mp3 */; };
+		B4D07E9B1DD2FB8800C64520 /* Sodie Pops 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4D07E9A1DD2FB8800C64520 /* Sodie Pops 1.mp3 */; };
+		B4D07E9D1DD2FB8C00C64520 /* Sodie Pops 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4D07E9C1DD2FB8C00C64520 /* Sodie Pops 2.mp3 */; };
+		B4D07E9F1DD2FB9800C64520 /* Big Tip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4D07E9E1DD2FB9800C64520 /* Big Tip.mp3 */; };
+		B4D07EA11DD2FB9B00C64520 /* Welcome.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4D07EA01DD2FB9B00C64520 /* Welcome.mp3 */; };
+		B4D07EA31DD2FBA100C64520 /* High Tech.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4D07EA21DD2FBA100C64520 /* High Tech.mp3 */; };
+		B4D07EA51DD2FBA700C64520 /* Jalapenos.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4D07EA41DD2FBA700C64520 /* Jalapenos.mp3 */; };
+		B4D07EA71DD30D9100C64520 /* Watch Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4D07EA61DD30D9100C64520 /* Watch Me.mp3 */; };
+		B4D07EA91DD30D9800C64520 /* Zesty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4D07EA81DD30D9800C64520 /* Zesty.mp3 */; };
+		B4D07EAB1DD30DA400C64520 /* Making Pizza.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4D07EAA1DD30DA400C64520 /* Making Pizza.mp3 */; };
+		B4D07EAD1DD30DAB00C64520 /* Hehe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4D07EAC1DD30DAB00C64520 /* Hehe.mp3 */; };
+		B4D07EAF1DD30DB600C64520 /* Never Ordered.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4D07EAE1DD30DB600C64520 /* Never Ordered.mp3 */; };
+		B4D07EB11DD30DC100C64520 /* Where've You Been.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4D07EB01DD30DC100C64520 /* Where've You Been.mp3 */; };
+		B4D07EB31DD30DC500C64520 /* Hahahehehe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4D07EB21DD30DC500C64520 /* Hahahehehe.mp3 */; };
+		B4D07EB51DD30DC800C64520 /* Hehehe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4D07EB41DD30DC800C64520 /* Hehehe.mp3 */; };
+		B4D07EB71DD30DD600C64520 /* Cheesesticks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4D07EB61DD30DD600C64520 /* Cheesesticks.mp3 */; };
+		B4D07EB91DD30DDC00C64520 /* Allowance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4D07EB81DD30DDC00C64520 /* Allowance.mp3 */; };
+		B4D07EBB1DD30DE200C64520 /* Let It Happen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4D07EBA1DD30DE200C64520 /* Let It Happen.mp3 */; };
+		B4D07EBD1DD30DE700C64520 /* Click Of The Mouse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4D07EBC1DD30DE700C64520 /* Click Of The Mouse.mp3 */; };
+		B4D07EBF1DD30DEC00C64520 /* Mhmhm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4D07EBE1DD30DEC00C64520 /* Mhmhm.mp3 */; };
+		B4D07EC11DD3166200C64520 /* In The House.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4D07EC01DD3166200C64520 /* In The House.mp3 */; };
+		B4D07EC31DD3166700C64520 /* Chant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4D07EC21DD3166700C64520 /* Chant.mp3 */; };
+		B4DEF0901DD2CA3B00B04C5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DEF08F1DD2CA3B00B04C5C /* AppDelegate.swift */; };
+		B4DEF0921DD2CA3B00B04C5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DEF0911DD2CA3B00B04C5C /* ViewController.swift */; };
+		B4DEF0A51DD2CA3C00B04C5C /* Papa_John_SoundboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DEF0A41DD2CA3C00B04C5C /* Papa_John_SoundboardTests.swift */; };
+		B4DEF0B01DD2CA3C00B04C5C /* Papa_John_SoundboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DEF0AF1DD2CA3C00B04C5C /* Papa_John_SoundboardUITests.swift */; };
+		B4DEF0BE1DD2CAB800B04C5C /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DEF0BD1DD2CAB800B04C5C /* CollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4DEF0A11DD2CA3C00B04C5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4DEF0841DD2CA3B00B04C5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4DEF08B1DD2CA3B00B04C5C;
+			remoteInfo = "Papa John Soundboard";
+		};
+		B4DEF0AC1DD2CA3C00B04C5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4DEF0841DD2CA3B00B04C5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4DEF08B1DD2CA3B00B04C5C;
+			remoteInfo = "Papa John Soundboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4030B351DD3D2750010964F /* Papa John Soundboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Papa John Soundboard.entitlements"; sourceTree = "<group>"; };
+		B419DBCD1DD2CB6000B7F4BB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		B419DBCF1DD2CB8F00B7F4BB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B419DBD11DD2CC2300B7F4BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		B429463B1DD2E87900DB57D3 /* Stop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Stop.mp3; sourceTree = "<group>"; };
+		B4D07E981DD2FB8400C64520 /* Bo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bo.mp3; sourceTree = "<group>"; };
+		B4D07E9A1DD2FB8800C64520 /* Sodie Pops 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sodie Pops 1.mp3"; sourceTree = "<group>"; };
+		B4D07E9C1DD2FB8C00C64520 /* Sodie Pops 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sodie Pops 2.mp3"; sourceTree = "<group>"; };
+		B4D07E9E1DD2FB9800C64520 /* Big Tip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Big Tip.mp3"; sourceTree = "<group>"; };
+		B4D07EA01DD2FB9B00C64520 /* Welcome.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Welcome.mp3; sourceTree = "<group>"; };
+		B4D07EA21DD2FBA100C64520 /* High Tech.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "High Tech.mp3"; sourceTree = "<group>"; };
+		B4D07EA41DD2FBA700C64520 /* Jalapenos.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Jalapenos.mp3; sourceTree = "<group>"; };
+		B4D07EA61DD30D9100C64520 /* Watch Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Watch Me.mp3"; sourceTree = "<group>"; };
+		B4D07EA81DD30D9800C64520 /* Zesty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Zesty.mp3; sourceTree = "<group>"; };
+		B4D07EAA1DD30DA400C64520 /* Making Pizza.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Making Pizza.mp3"; sourceTree = "<group>"; };
+		B4D07EAC1DD30DAB00C64520 /* Hehe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hehe.mp3; sourceTree = "<group>"; };
+		B4D07EAE1DD30DB600C64520 /* Never Ordered.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Never Ordered.mp3"; sourceTree = "<group>"; };
+		B4D07EB01DD30DC100C64520 /* Where've You Been.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Where've You Been.mp3"; sourceTree = "<group>"; };
+		B4D07EB21DD30DC500C64520 /* Hahahehehe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hahahehehe.mp3; sourceTree = "<group>"; };
+		B4D07EB41DD30DC800C64520 /* Hehehe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hehehe.mp3; sourceTree = "<group>"; };
+		B4D07EB61DD30DD600C64520 /* Cheesesticks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cheesesticks.mp3; sourceTree = "<group>"; };
+		B4D07EB81DD30DDC00C64520 /* Allowance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Allowance.mp3; sourceTree = "<group>"; };
+		B4D07EBA1DD30DE200C64520 /* Let It Happen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Let It Happen.mp3"; sourceTree = "<group>"; };
+		B4D07EBC1DD30DE700C64520 /* Click Of The Mouse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Click Of The Mouse.mp3"; sourceTree = "<group>"; };
+		B4D07EBE1DD30DEC00C64520 /* Mhmhm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Mhmhm.mp3; sourceTree = "<group>"; };
+		B4D07EC01DD3166200C64520 /* In The House.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "In The House.mp3"; sourceTree = "<group>"; };
+		B4D07EC21DD3166700C64520 /* Chant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Chant.mp3; sourceTree = "<group>"; };
+		B4DEF08C1DD2CA3B00B04C5C /* Papa John Soundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Papa John Soundboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4DEF08F1DD2CA3B00B04C5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4DEF0911DD2CA3B00B04C5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B4DEF09B1DD2CA3B00B04C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4DEF0A01DD2CA3C00B04C5C /* Papa John SoundboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Papa John SoundboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4DEF0A41DD2CA3C00B04C5C /* Papa_John_SoundboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Papa_John_SoundboardTests.swift; sourceTree = "<group>"; };
+		B4DEF0A61DD2CA3C00B04C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4DEF0AB1DD2CA3C00B04C5C /* Papa John SoundboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Papa John SoundboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4DEF0AF1DD2CA3C00B04C5C /* Papa_John_SoundboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Papa_John_SoundboardUITests.swift; sourceTree = "<group>"; };
+		B4DEF0B11DD2CA3C00B04C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4DEF0BD1DD2CAB800B04C5C /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewCell.swift; path = ../CollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4DEF0891DD2CA3B00B04C5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DEF09D1DD2CA3C00B04C5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DEF0A81DD2CA3C00B04C5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4030B361DD3D2750010964F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4DEF0831DD2CA3B00B04C5C = {
+			isa = PBXGroup;
+			children = (
+				B4DEF08E1DD2CA3B00B04C5C /* Papa John Soundboard */,
+				B4DEF0A31DD2CA3C00B04C5C /* Papa John SoundboardTests */,
+				B4DEF0AE1DD2CA3C00B04C5C /* Papa John SoundboardUITests */,
+				B4DEF08D1DD2CA3B00B04C5C /* Products */,
+				B4030B361DD3D2750010964F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B4DEF08D1DD2CA3B00B04C5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4DEF08C1DD2CA3B00B04C5C /* Papa John Soundboard.app */,
+				B4DEF0A01DD2CA3C00B04C5C /* Papa John SoundboardTests.xctest */,
+				B4DEF0AB1DD2CA3C00B04C5C /* Papa John SoundboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4DEF08E1DD2CA3B00B04C5C /* Papa John Soundboard */ = {
+			isa = PBXGroup;
+			children = (
+				B4030B351DD3D2750010964F /* Papa John Soundboard.entitlements */,
+				B4DEF08F1DD2CA3B00B04C5C /* AppDelegate.swift */,
+				B4DEF0911DD2CA3B00B04C5C /* ViewController.swift */,
+				B4DEF0BD1DD2CAB800B04C5C /* CollectionViewCell.swift */,
+				B419DBCD1DD2CB6000B7F4BB /* Main.storyboard */,
+				B419DBD11DD2CC2300B7F4BB /* Assets.xcassets */,
+				B4DEF0BF1DD2CAD700B04C5C /* AudioClips */,
+				B419DBCF1DD2CB8F00B7F4BB /* LaunchScreen.storyboard */,
+				B4DEF09B1DD2CA3B00B04C5C /* Info.plist */,
+			);
+			path = "Papa John Soundboard";
+			sourceTree = "<group>";
+		};
+		B4DEF0A31DD2CA3C00B04C5C /* Papa John SoundboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4DEF0A41DD2CA3C00B04C5C /* Papa_John_SoundboardTests.swift */,
+				B4DEF0A61DD2CA3C00B04C5C /* Info.plist */,
+			);
+			path = "Papa John SoundboardTests";
+			sourceTree = "<group>";
+		};
+		B4DEF0AE1DD2CA3C00B04C5C /* Papa John SoundboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4DEF0AF1DD2CA3C00B04C5C /* Papa_John_SoundboardUITests.swift */,
+				B4DEF0B11DD2CA3C00B04C5C /* Info.plist */,
+			);
+			path = "Papa John SoundboardUITests";
+			sourceTree = "<group>";
+		};
+		B4DEF0BF1DD2CAD700B04C5C /* AudioClips */ = {
+			isa = PBXGroup;
+			children = (
+				B429463B1DD2E87900DB57D3 /* Stop.mp3 */,
+				B4D07EC01DD3166200C64520 /* In The House.mp3 */,
+				B4D07EA01DD2FB9B00C64520 /* Welcome.mp3 */,
+				B4D07E981DD2FB8400C64520 /* Bo.mp3 */,
+				B4D07EA61DD30D9100C64520 /* Watch Me.mp3 */,
+				B4D07EA21DD2FBA100C64520 /* High Tech.mp3 */,
+				B4D07EA81DD30D9800C64520 /* Zesty.mp3 */,
+				B4D07EA41DD2FBA700C64520 /* Jalapenos.mp3 */,
+				B4D07EAA1DD30DA400C64520 /* Making Pizza.mp3 */,
+				B4D07EAC1DD30DAB00C64520 /* Hehe.mp3 */,
+				B4D07EAE1DD30DB600C64520 /* Never Ordered.mp3 */,
+				B4D07EB01DD30DC100C64520 /* Where've You Been.mp3 */,
+				B4D07EB21DD30DC500C64520 /* Hahahehehe.mp3 */,
+				B4D07EB41DD30DC800C64520 /* Hehehe.mp3 */,
+				B4D07E9A1DD2FB8800C64520 /* Sodie Pops 1.mp3 */,
+				B4D07EB61DD30DD600C64520 /* Cheesesticks.mp3 */,
+				B4D07EB81DD30DDC00C64520 /* Allowance.mp3 */,
+				B4D07E9C1DD2FB8C00C64520 /* Sodie Pops 2.mp3 */,
+				B4D07EBA1DD30DE200C64520 /* Let It Happen.mp3 */,
+				B4D07EBC1DD30DE700C64520 /* Click Of The Mouse.mp3 */,
+				B4D07EBE1DD30DEC00C64520 /* Mhmhm.mp3 */,
+				B4D07E9E1DD2FB9800C64520 /* Big Tip.mp3 */,
+				B4D07EC21DD3166700C64520 /* Chant.mp3 */,
+			);
+			name = AudioClips;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4DEF08B1DD2CA3B00B04C5C /* Papa John Soundboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4DEF0B41DD2CA3C00B04C5C /* Build configuration list for PBXNativeTarget "Papa John Soundboard" */;
+			buildPhases = (
+				B4DEF0881DD2CA3B00B04C5C /* Sources */,
+				B4DEF0891DD2CA3B00B04C5C /* Frameworks */,
+				B4DEF08A1DD2CA3B00B04C5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Papa John Soundboard";
+			productName = "Papa John Soundboard";
+			productReference = B4DEF08C1DD2CA3B00B04C5C /* Papa John Soundboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4DEF09F1DD2CA3C00B04C5C /* Papa John SoundboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4DEF0B71DD2CA3C00B04C5C /* Build configuration list for PBXNativeTarget "Papa John SoundboardTests" */;
+			buildPhases = (
+				B4DEF09C1DD2CA3C00B04C5C /* Sources */,
+				B4DEF09D1DD2CA3C00B04C5C /* Frameworks */,
+				B4DEF09E1DD2CA3C00B04C5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4DEF0A21DD2CA3C00B04C5C /* PBXTargetDependency */,
+			);
+			name = "Papa John SoundboardTests";
+			productName = "Papa John SoundboardTests";
+			productReference = B4DEF0A01DD2CA3C00B04C5C /* Papa John SoundboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4DEF0AA1DD2CA3C00B04C5C /* Papa John SoundboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4DEF0BA1DD2CA3C00B04C5C /* Build configuration list for PBXNativeTarget "Papa John SoundboardUITests" */;
+			buildPhases = (
+				B4DEF0A71DD2CA3C00B04C5C /* Sources */,
+				B4DEF0A81DD2CA3C00B04C5C /* Frameworks */,
+				B4DEF0A91DD2CA3C00B04C5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4DEF0AD1DD2CA3C00B04C5C /* PBXTargetDependency */,
+			);
+			name = "Papa John SoundboardUITests";
+			productName = "Papa John SoundboardUITests";
+			productReference = B4DEF0AB1DD2CA3C00B04C5C /* Papa John SoundboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4DEF0841DD2CA3B00B04C5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Rossmallow;
+				TargetAttributes = {
+					B4DEF08B1DD2CA3B00B04C5C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LVKFLUMFQ2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
+					};
+					B4DEF09F1DD2CA3C00B04C5C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LVKFLUMFQ2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B4DEF08B1DD2CA3B00B04C5C;
+					};
+					B4DEF0AA1DD2CA3C00B04C5C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LVKFLUMFQ2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B4DEF08B1DD2CA3B00B04C5C;
+					};
+				};
+			};
+			buildConfigurationList = B4DEF0871DD2CA3B00B04C5C /* Build configuration list for PBXProject "Papa John Soundboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4DEF0831DD2CA3B00B04C5C;
+			productRefGroup = B4DEF08D1DD2CA3B00B04C5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4DEF08B1DD2CA3B00B04C5C /* Papa John Soundboard */,
+				B4DEF09F1DD2CA3C00B04C5C /* Papa John SoundboardTests */,
+				B4DEF0AA1DD2CA3C00B04C5C /* Papa John SoundboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4DEF08A1DD2CA3B00B04C5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D07E9F1DD2FB9800C64520 /* Big Tip.mp3 in Resources */,
+				B4D07EB31DD30DC500C64520 /* Hahahehehe.mp3 in Resources */,
+				B4D07EA91DD30D9800C64520 /* Zesty.mp3 in Resources */,
+				B4D07EB71DD30DD600C64520 /* Cheesesticks.mp3 in Resources */,
+				B4D07EBD1DD30DE700C64520 /* Click Of The Mouse.mp3 in Resources */,
+				B4D07EB11DD30DC100C64520 /* Where've You Been.mp3 in Resources */,
+				B4D07EBF1DD30DEC00C64520 /* Mhmhm.mp3 in Resources */,
+				B4D07E991DD2FB8400C64520 /* Bo.mp3 in Resources */,
+				B4D07EA51DD2FBA700C64520 /* Jalapenos.mp3 in Resources */,
+				B4D07EC31DD3166700C64520 /* Chant.mp3 in Resources */,
+				B4D07EAF1DD30DB600C64520 /* Never Ordered.mp3 in Resources */,
+				B419DBD01DD2CB8F00B7F4BB /* LaunchScreen.storyboard in Resources */,
+				B4D07EAB1DD30DA400C64520 /* Making Pizza.mp3 in Resources */,
+				B4D07EA31DD2FBA100C64520 /* High Tech.mp3 in Resources */,
+				B4D07EBB1DD30DE200C64520 /* Let It Happen.mp3 in Resources */,
+				B419DBCE1DD2CB6000B7F4BB /* Main.storyboard in Resources */,
+				B4D07E9D1DD2FB8C00C64520 /* Sodie Pops 2.mp3 in Resources */,
+				B4D07E9B1DD2FB8800C64520 /* Sodie Pops 1.mp3 in Resources */,
+				B4D07EB51DD30DC800C64520 /* Hehehe.mp3 in Resources */,
+				B4D07EA11DD2FB9B00C64520 /* Welcome.mp3 in Resources */,
+				B429463C1DD2E87900DB57D3 /* Stop.mp3 in Resources */,
+				B4D07EC11DD3166200C64520 /* In The House.mp3 in Resources */,
+				B4D07EAD1DD30DAB00C64520 /* Hehe.mp3 in Resources */,
+				B419DBD21DD2CC2300B7F4BB /* Assets.xcassets in Resources */,
+				B4D07EA71DD30D9100C64520 /* Watch Me.mp3 in Resources */,
+				B4D07EB91DD30DDC00C64520 /* Allowance.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DEF09E1DD2CA3C00B04C5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DEF0A91DD2CA3C00B04C5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4DEF0881DD2CA3B00B04C5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4DEF0921DD2CA3B00B04C5C /* ViewController.swift in Sources */,
+				B4DEF0901DD2CA3B00B04C5C /* AppDelegate.swift in Sources */,
+				B4DEF0BE1DD2CAB800B04C5C /* CollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DEF09C1DD2CA3C00B04C5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4DEF0A51DD2CA3C00B04C5C /* Papa_John_SoundboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DEF0A71DD2CA3C00B04C5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4DEF0B01DD2CA3C00B04C5C /* Papa_John_SoundboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4DEF0A21DD2CA3C00B04C5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4DEF08B1DD2CA3B00B04C5C /* Papa John Soundboard */;
+			targetProxy = B4DEF0A11DD2CA3C00B04C5C /* PBXContainerItemProxy */;
+		};
+		B4DEF0AD1DD2CA3C00B04C5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4DEF08B1DD2CA3B00B04C5C /* Papa John Soundboard */;
+			targetProxy = B4DEF0AC1DD2CA3C00B04C5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B4DEF0B21DD2CA3C00B04C5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4DEF0B31DD2CA3C00B04C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4DEF0B51DD2CA3C00B04C5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LVKFLUMFQ2;
+				INFOPLIST_FILE = "Papa John Soundboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rossmallow.Papa-John-Soundboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4DEF0B61DD2CA3C00B04C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LVKFLUMFQ2;
+				INFOPLIST_FILE = "Papa John Soundboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rossmallow.Papa-John-Soundboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B4DEF0B81DD2CA3C00B04C5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LVKFLUMFQ2;
+				INFOPLIST_FILE = "Papa John SoundboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rossmallow.Papa-John-SoundboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Papa John Soundboard.app/Papa John Soundboard";
+			};
+			name = Debug;
+		};
+		B4DEF0B91DD2CA3C00B04C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LVKFLUMFQ2;
+				INFOPLIST_FILE = "Papa John SoundboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rossmallow.Papa-John-SoundboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Papa John Soundboard.app/Papa John Soundboard";
+			};
+			name = Release;
+		};
+		B4DEF0BB1DD2CA3C00B04C5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LVKFLUMFQ2;
+				INFOPLIST_FILE = "Papa John SoundboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rossmallow.Papa-John-SoundboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Papa John Soundboard";
+			};
+			name = Debug;
+		};
+		B4DEF0BC1DD2CA3C00B04C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LVKFLUMFQ2;
+				INFOPLIST_FILE = "Papa John SoundboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rossmallow.Papa-John-SoundboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Papa John Soundboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4DEF0871DD2CA3B00B04C5C /* Build configuration list for PBXProject "Papa John Soundboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4DEF0B21DD2CA3C00B04C5C /* Debug */,
+				B4DEF0B31DD2CA3C00B04C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4DEF0B41DD2CA3C00B04C5C /* Build configuration list for PBXNativeTarget "Papa John Soundboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4DEF0B51DD2CA3C00B04C5C /* Debug */,
+				B4DEF0B61DD2CA3C00B04C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4DEF0B71DD2CA3C00B04C5C /* Build configuration list for PBXNativeTarget "Papa John SoundboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4DEF0B81DD2CA3C00B04C5C /* Debug */,
+				B4DEF0B91DD2CA3C00B04C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4DEF0BA1DD2CA3C00B04C5C /* Build configuration list for PBXNativeTarget "Papa John SoundboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4DEF0BB1DD2CA3C00B04C5C /* Debug */,
+				B4DEF0BC1DD2CA3C00B04C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4DEF0841DD2CA3B00B04C5C /* Project object */;
+}
