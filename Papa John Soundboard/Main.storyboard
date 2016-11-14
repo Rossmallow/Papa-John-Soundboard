@@ -117,7 +117,7 @@
                                 <rect key="frame" x="16" y="64" width="343" height="559"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">I made this for the memes and because I love Papa John's.  Inspired By: https://youtu.be/1ElpE-THkRE  Audio From: https://youtu.be/zYAgKvlqvNY https://youtu.be/wjhzXDDXt74 https://youtu.be/D_H-sywh94E  Resources Used: https://youtu.be/dqad3XuMwHI goo.gl/mcZfPL goo.gl/7lKtA2  Contact me: www.GitHub.com/Rossmallow www.LinkedIn.com/in/RossNel    Papa please don't sue...</mutableString>
+                               <mutableString key="text">I made this for the memes and because I love Papa John's.  Inspired By: https://youtu.be/1ElpE-THkRE  Audio From: https://youtu.be/zYAgKvlqvNY https://youtu.be/wjhzXDDXt74 https://youtu.be/D_H-sywh94E  Resources Used: https://youtu.be/dqad3XuMwHI goo.gl/mcZfPL goo.gl/7lKtA2  Contact me: www.GitHub.com/Rossmallow www.LinkedIn.com/in/RossNel www.Twitter.com/Rossmallow    Papa please don't sue...</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
